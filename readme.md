@@ -2,6 +2,8 @@
 
 > Integração com a API da A10 Networks usando nodejs
 
+![1678195359595](image/readme/1678195359595.png)
+
 ## O que é a A10 Networks?
 
 A A10 Networks é uma empresa de tecnologia que oferece soluções de segurança cibernética, redes e aplicativos para empresas e provedores de serviços.
