@@ -7,7 +7,7 @@ const auth = {
 };
 
 // URL base da API da A10 Networks
-const baseUrl = 'https://45.7.118.106/api/axapi/v3';
+const baseUrl = `https://${process.env.A10_ADDRESS}/api/axapi/v3`;
 
 // Endpoint para listar pools de servidores
 const poolEndpoint = `${baseUrl}/slb/server`;
@@ -23,5 +23,5 @@ client.get(poolEndpoint, { auth })
     })
     .catch(error => {
         // Manipula o erro da API
-        console.error(error.request);
+        console.error(error);
     });
