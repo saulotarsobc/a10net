@@ -13,10 +13,10 @@ const baseUrl = 'https://45.7.118.106/api/axapi/v3';
 const poolEndpoint = `${baseUrl}/slb/server`;
 
 // Cria uma instância do cliente axios com verificação SSL desativada
-// const client = axios.create({ httpsAgent: false });
+const client = axios.create({ httpsAgent: false });
 
 // Faz uma requisição GET para listar as pools de servidores
-axios.get(poolEndpoint, { auth })
+client.get(poolEndpoint, { auth })
     .then(response => {
         // Manipula a resposta da API
         console.log(response.data);
