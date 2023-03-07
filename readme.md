@@ -28,12 +28,24 @@ A API da A10 Networks é baseada em RESTful, o que significa que usa protocolos 
 
 Com a API da A10 Networks, os usuários podem realizar uma variedade de tarefas, incluindo a criação de políticas de CGNAT, o monitoramento de estatísticas de desempenho e a configuração de alertas. Isso permite que os usuários personalizem suas configurações de CGNAT e gerenciem seus dispositivos de maneira mais eficiente e automatizada.
 
-## Como posso usar?
+### AXAPI 🤔
 
-Para usar a API da A10 Networks, você precisará primeiro ter um dispositivo A10 Networks instalado em sua rede. Depois, você precisará acessar o dispositivo e habilitar o suporte à API. Isso pode ser feito usando a interface de gerenciamento do dispositivo ou através de um script de configuração.
+AXAPI (A10 eXtensible Advanced Programmable Interface) é uma interface de programação de aplicativos (API) da A10 Networks que permite aos usuários programar, automatizar e gerenciar dispositivos de rede da A10. É baseado em uma arquitetura RESTful (Representational State Transfer) e suporta operações HTTP GET, PUT, POST e DELETE.
 
-Depois de habilitar a API, você poderá começar a usá-la para automatizar tarefas de gerenciamento do dispositivo. A API é baseada em RESTful, o que significa que você pode usar qualquer linguagem de programação que suporte solicitações HTTP para se comunicar com o dispositivo.
+Com a AXAPI, os usuários podem controlar e configurar vários recursos de rede, como balanceamento de carga, firewall de aplicativos da web, DNS, gerenciamento de tráfego de rede e muito mais. Ele permite que os usuários personalizem a configuração de seus dispositivos A10 para atender às suas necessidades específicas de rede.
 
-A A10 Networks também fornece bibliotecas de software em várias linguagens de programação, como Python, Java e Ruby, para ajudar os desenvolvedores a começar a usar a API mais rapidamente. Essas bibliotecas fornecem métodos pré-construídos que correspondem aos endpoints da API e ajudam a simplificar a interação com o dispositivo.
+A AXAPI também suporta várias linguagens de programação, incluindo Python, Ruby, Perl, Java e JavaScript, o que a torna uma API flexível e de fácil integração em diferentes ambientes de rede.
 
-Antes de começar a usar a API da A10 Networks, é recomendável que você leia a documentação oficial da API para entender seus recursos e como usá-la corretamente.
+### Como habilito?
+
+A AXAPI já vem habilitada nos dispositivos de rede da A10 Networks por padrão. No entanto, é importante verificar se a AXAPI está ativada e configurada corretamente para permitir o acesso remoto.
+
+Para habilitar a AXAPI, siga estas etapas:
+
+1. Acesse a interface de gerenciamento do seu dispositivo A10 Networks usando um navegador da web.
+2. Faça login no dispositivo com as credenciais de administrador.
+3. No painel esquerdo da interface, clique em "System".
+4. Clique na guia "Services" e verifique se o serviço "axapi" está ativo. Se não estiver, ative-o clicando no botão "Enable" ao lado do serviço.
+5. Verifique as configurações do serviço AXAPI para garantir que ele esteja configurado corretamente. Verifique especialmente a porta usada pelo serviço, que deve ser a mesma porta especificada em sua aplicação que se conectará à API.
+
+Depois de habilitar e configurar corretamente a AXAPI, você pode começar a usá-la para programar, automatizar e gerenciar seu dispositivo A10 Networks usando uma variedade de linguagens de programação.

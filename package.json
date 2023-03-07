@@ -13,5 +13,9 @@
     "costa"
   ],
   "author": "https://github.com/saulotarsobc/",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3"
+  }
 }
