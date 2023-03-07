@@ -1,0 +1,17 @@
+{
+  "name": "sc-a10-networks",
+  "version": "1.0.0",
+  "description": "Integração com a API da A10 Networks usando nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "a10-networks",
+    "api",
+    "saulo",
+    "costa"
+  ],
+  "author": "https://github.com/saulotarsobc/",
+  "license": "ISC"
+}
